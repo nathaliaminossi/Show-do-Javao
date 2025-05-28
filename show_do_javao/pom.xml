@@ -11,4 +11,15 @@
         <maven.compiler.target>23</maven.compiler.target>
         <exec.mainClass>com.mycompany.show_do_javao.Show_do_javao</exec.mainClass>
     </properties>
+    
+    
+    <dependencies>
+     <dependency>
+            <groupId>org.xerial</groupId>
+            <artifactId>sqlite-jdbc</artifactId>
+            <version>3.36.0.3</version>
+        </dependency>
+     
+    </dependencies>
+
 </project>
